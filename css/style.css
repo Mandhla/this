@@ -142,8 +142,8 @@ div.side-nav{
   z-index: 1;
   top:0;
   left:0;
-  background-color: #99e265;
-  opacity: 0.9;
+  background-color:green;
+  /*opacity: 0.9;*/
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -159,14 +159,14 @@ div.side-nav{
 }
 
 .side-nav a:hover{
-  color: #dddddd;
+  color: #000;
 }
 
 .side-nav .btn-close{
   position: absolute;
   top:0;
   right:22px;
-  font-size: 36;
+  font-size: 56px;
   margin-left: 50px;
 }
 

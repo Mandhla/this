@@ -3,15 +3,43 @@ body{
     margin: 1%;
     padding: 1%;
 }
+img.clogo{
+  width: 100%;
+}
+
+img.midImg{
+  width: 100%;
+}
+img.offersImg{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.offers{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color:#333333;
+  margin:0 auto;
+  padding-top:15px;
+  padding-bottom:10px;
+}
+
+.offersPara{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  color: #666666;
+  width: 80%;
+  padding-bottom: 30px;
+}
 #top-logo{
     width: 100%;
     background-color: white;
-
 }
 #top-image{
     width: 100%;
-    height: 240px;
-    background-color: grey;
+    background-color: white;
 
 }
 .container{
@@ -20,14 +48,11 @@ body{
 }
 .body{
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
-.header{
-    width: 100%;
-    background: white;
-    padding-top: 1px;
-    color: white;
-    height: 80px;
+header.menu{
+  padding:10% 5% 10% 20%;
+  background-color:white;
 }
 
 /*  Slider */
@@ -56,18 +81,13 @@ body{
 }
 
 #boximageview{
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
-    width: 125px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 #boxtextview{
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    width: 250px;
-    border:3px solid #ffffff;
+    margin: 0 auto;
+    width: 100%;
 }
 
 #whatwedobox2{
@@ -85,9 +105,9 @@ body{
 
 #button{
     margin-top: 5px;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
-    width: 60%;
+    width: 40%;
     height: 12%;
     border-radius: 5px;
     background-color: green;
@@ -112,6 +132,48 @@ body{
     width: 100%;
     height: 95%;
     padding-bottom: 20px;
+}
+
+#top-selling-offers{
+  background-color: white;
+}
+p.top-sale{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin:0;
+  color:#666666;
+  background-color:#99e265;
+}
+.sell{
+  width:30%;
+  margin-left: 35%;
+}
+
+p.pname{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin:0 auto;
+  color: #666;
+}
+
+p.price{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin:0 auto;
+  color: #666;
+}
+
+p.pbutton{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 #top-selling-offers-box{
@@ -194,4 +256,35 @@ div.side-nav{
 li.dropdown{
   text-decoration: none;
   display: inline;
+}
+
+@media (min-width:824px){
+  #footer{
+    float: left;
+    margin-right:10%;
+  }
+  #footer-info-box3{
+    float: left;
+  }
+  .foot{
+    display: inline-block;
+  }
+  #product{
+    float: left;
+    display: inline-block;
+  }
+}
+
+p{
+  margin:0 auto;
+}
+
+span.open-slide{
+  float: left;
+  margin-top: 12%;
+  margin-left: 6%;
+}
+
+a.dropdown-content{
+  text-align: center;
 }

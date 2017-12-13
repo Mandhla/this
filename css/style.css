@@ -301,6 +301,9 @@ li.dropdown{
     margin-left: 25%;
     height: 100%;
 }
+div.contact-box{
+  width: 200px;
+}
 }
 
 p{

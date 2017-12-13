@@ -296,6 +296,11 @@ li.dropdown{
   background-color: white;
   height: 330px;
   }
+  img.sell{
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+}
 }
 
 p{

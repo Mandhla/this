@@ -99,10 +99,10 @@ header.menu{
     background-color: #ffffff;
 }
 
-#boxB2{
+/*#boxB2{
     height: 330px;
     background-image:url("../img/brands.jpg");
-}
+}*/
 
 #button{
     margin-top: 5px;
@@ -259,8 +259,8 @@ li.dropdown{
     float: left;
   }
   .foot{
-    display: inline-table;
-    width: 100.1%;
+    display:table;
+    width: 100%;
     height: 160px;
   }
   div.produc{
@@ -283,9 +283,8 @@ li.dropdown{
 
   div.whatwedobox2{
       background-color: #ffffff;
-      display: inline;
-      width: 100%;
-      height: 100%;
+      display: table-row;
+      height: 370px;
   }
   div.boxB2{
     float: left;

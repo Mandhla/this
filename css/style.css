@@ -334,7 +334,7 @@ a.dropdown-content{
   text-align: center;
 }
 
-@media (min-width:650px){
+@media (max-width:650px){
   div.grid-container{
     display: inline-block;
   }

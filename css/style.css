@@ -393,7 +393,7 @@ a.dropdown-content{
 
 .art-img{
   width: 100%;
-  padding: 2pc;
+  padding: 1pc 1pc 0pc 1pc;
 }
 
 .text h3{
@@ -415,7 +415,7 @@ a.dropdown-content{
 }
 
 .text{
-  margin: 2pc;
+  margin: 1pc;
 }
 
 .content{

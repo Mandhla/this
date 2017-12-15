@@ -367,3 +367,8 @@ a.dropdown-content{
   margin-left: 25%;
   margin-bottom: 20px;
 }
+
+.text{
+  background-color: forestgreen;
+  margin: 2pc;
+}

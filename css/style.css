@@ -56,6 +56,65 @@ header.menu{
   background-color:white;
 }
 
+/* Footer */
+.foot{
+  background-color: #99e265;
+}
+.links{
+  padding-bottom:10px;
+}
+
+.footer{
+  margin-left:5%;
+}
+
+.address{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  top:10%;
+}
+.last{
+  height:100%;
+  background-color: white;
+}
+.cpy{
+  text-align:center;
+  background-color: white;
+  padding-top:10px;
+  margin:0 auto;
+  padding-bottom:3%;
+}
+.links1{
+  margin-left:5%;
+}
+.links-a{
+  color: white;
+}
+
+.links-h1{
+  font-family:'Montserrat', sans-serif;
+  font-size: 28px;
+  text-align: left;
+  margin:0;
+  padding:0;
+  color: white;
+  position: relative;
+}
+
+.links-p{
+  font-family:'Montserrat', sans-serif;
+  text-align: left;
+  margin:0;
+}
+
+.contact-box{
+  padding-bottom: 5%;
+}
+
 /*  Slider */
 .slider{
     position:relative;
@@ -98,11 +157,6 @@ header.menu{
     width: 100%;
     background-color: #ffffff;
 }
-
-/*#boxB2{
-    height: 330px;
-    background-image:url("../img/brands.jpg");
-}*/
 
 #button{
     margin-top: 5px;
@@ -190,14 +244,6 @@ a{
 
 }
 
-#footer-info-box3{
-  background-color:#99e265;
-}
-
-div.foot p{
-  font-size: 12px;
-}
-
 div.side-nav{
   height: 100%;
   width: 0;
@@ -253,10 +299,7 @@ li.dropdown{
 @media (min-width:760px){
   #footer{
     float: left;
-    margin-right:10%;
-  }
-  #footer-info-box3{
-    float: left;
+    width:250px;
   }
   .foot{
     display:table;
@@ -302,7 +345,8 @@ li.dropdown{
     height: 100%;
 }
 div.contact-box{
-  width: 200px;
+  float: left;
+  width: 250px;
 }
 }
 
@@ -367,10 +411,14 @@ a.dropdown-content{
   width: 50%;
   margin-left: 25%;
   margin-bottom: 20px;
+  color: forestgreen;
 }
 
 .text{
-  background-color: forestgreen;
   margin: 2pc;
-  border: 3px solid grey;
+}
+
+.content{
+  height: 100%;
+  border-bottom: 3px solid white;
 }

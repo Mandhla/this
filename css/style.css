@@ -4,7 +4,8 @@ body{
     padding: 1%;
 }
 img.clogo{
-  width: 100%;
+  width: 80%;
+  padding-left:20%;
 }
 
 img.midImg{
@@ -52,7 +53,7 @@ img.offersImg{
     margin: 0 auto;
 }
 header.menu{
-  padding:2.5% 1% 1% 13%;
+  padding:5% 13% 5% 15%;
   background-color:white;
 }
 
@@ -187,6 +188,8 @@ header.menu{
     width: 100%;
     height: 95%;
     padding-bottom: 20px;
+    border-bottom: 2px solid lightgrey;
+    margin-top: 3%;
 }
 
 #top-selling-offers{
@@ -263,7 +266,7 @@ div.side-nav{
   text-decoration: none;
   font-size: 1.3em;
   font-family: 'Montserrat', sans-serif;
-  color: #ddd;
+  color: green;
   display:block;
   transition: 0.3s;
 }
@@ -274,7 +277,7 @@ div.side-nav{
 
 .side-nav .btn-close{
   position: absolute;
-  top:0;
+  top: -20px;
   right:22px;
   font-size: 56px;
   margin-left: 50px;
@@ -312,12 +315,13 @@ li.dropdown{
   }
   #product{
     width: 25%;
+    margin-top: 0;
   }
   #product-image{
     height: 115px;
   }
   #top-selling-offers-box{
-    padding-top: 30px;
+    padding-top: 20px;
   }
   div.boxA1,div.boxA2,div.boxA3{
     width: 33.3333333333333%;
@@ -356,8 +360,8 @@ p{
 
 span.open-slide{
   float: left;
-  margin-top: 3%;
-  margin-left: 2%;
+  margin-top: 6%;
+  margin-left: 4%;
 }
 
 a.dropdown-content{
@@ -421,4 +425,24 @@ a.dropdown-content{
 .content{
   height: 100%;
   border-bottom: 3px solid white;
+}
+
+/* About Page Css */
+
+.about{
+  background-color:silver;
+}
+
+.about-h1 h1{
+  margin-top: 0;
+}
+
+.menu-side{
+  display: inline-grid;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.btn-nav{
+  float: left;
 }

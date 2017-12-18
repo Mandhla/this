@@ -434,7 +434,8 @@ a.dropdown-content{
 /* About Page Css */
 
 .about{
-  background-color:silver;
+  background-color:white;
+  padding-bottom:20px;
 }
 
 .about-h1 h1{
@@ -450,4 +451,16 @@ a.dropdown-content{
 .btn-nav{
   float: left;
   width: 100%;
+}
+
+.boxes{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.about-h1{
+  width: 90%;
+  margin-left: 5%;
+  background-image: url("../img/about.png");
+  background-position: center;
 }

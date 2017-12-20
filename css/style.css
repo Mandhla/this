@@ -266,13 +266,12 @@ div.side-nav{
   text-decoration: none;
   font-size: 1.3em;
   font-family: 'Montserrat', sans-serif;
-  color: green;
   display:block;
   transition: 0.3s;
 }
 
 .side-nav a:hover{
-  color: #000;
+  color: #999;
 }
 
 .side-nav .btn-close{

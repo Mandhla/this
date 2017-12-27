@@ -363,6 +363,19 @@ span.open-slide{
   margin-left: 4%;
 }
 
+span.open-dropdown{
+  float: right;
+  margin-top: 6%;
+  margin-right: 4%;
+}
+
+span.open-pick{
+  float: right;
+  margin-top: 6%;
+  margin-right: 4%;
+  display: none;
+}
+
 a.dropdown-content{
   text-align: center;
 }
@@ -462,4 +475,19 @@ a.dropdown-content{
   margin-left: 5%;
   background-image: url("../img/about.png");
   background-position: center;
+}
+
+.nav-tab a{
+    text-transform: uppercase;
+    color: green;
+    font-family: 'Square';
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.nav-tab{
+  text-align: center;
+  background-color: white;
+  height: 0;
+  transition: 1.5s;
 }

@@ -10,6 +10,7 @@
     </head>
     <body>
             <div class="body">
+              <!--
               <span class="open-slide">
                 <a href="#" onclick="openSlideMenu()">
                   <svg width="30" height="30">
@@ -19,7 +20,27 @@
                   </svg>
                 </a>
               </span>
+            -->
+              <span id="btn1" class="open-dropdown">
+                <a href="#" onclick="openDropdown()">
+                  <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                  </svg>
+                </a>
+              </span>
+              <span id="btn2" class="open-pick">
+                <a href="#" onclick="openDrop()">
+                  <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                  </svg>
+                </a>
+              </span>
               <header class="menu">
+                <!--
                 <div id="side-menu" class="side-nav">
                   <a href="#" class="btn-close" style="color:white;" onclick="closeSlideMenu()">&times;</a>
                   <div class="menu-side">
@@ -36,10 +57,24 @@
                   <button class="btn-nav" style="margin-bottom:20%;"><a href="about.html">About Us</a></button>
                 </div>
                 </div>
+              -->
                 <div class="logo">
                   <img src="img/logo1.png" class="clogo" alt="image">
                 </div>
               </header>
+              <div id="dropNav" class="nav-tab">
+                <a href="index.html">Home</a> <br>
+                <a class="dropbtn" href="http://shop.nongerai.co.zw">Online Store</a> <br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=60">Building Materials</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=24">Power Tools</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=20">Electricals</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=33_60">Plumbing</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=17">Garden Tools</a><br>
+                <a href="http://www.nongerai.co.zw/demo.html">Shopping Demo</a><br>
+                <a href="how-to.html">How To Guides</a><br>
+                <a href="products.html">Our Products</a><br>
+                <a href="about.html">About Us</a><br>
+              </div>
               <div class="w3-content w3-section" style="max-width:100%; margin-top:0; margin-bottom:0;">
                 <img class="mySlides w3-animate-left" src="img/slide-1.png" style="width:100%">
                 <img class="mySlides w3-animate-top" src="img/slide-2.png" style="width:100%">
@@ -198,27 +233,27 @@
                     <p class="links-h1">Quick Links</p>
                     <div class="links1">
                     <div id="footer-links">
-                        <p class="links-p"><a href="index.html" class="links-a">Home Page</a></p>
+                        <p class="links-p"><a href="index.html" class="links-a">* Home Page</a></p>
                     </div>
 
                     <div id="footer-links">
-                        <p class="links-p"><a href="about.html" class="links-a">About Us</a></p>
+                        <p class="links-p"><a href="about.html" class="links-a">* About Us</a></p>
                     </div>
 
                     <div id="footer-links">
-                        <p class="links-p"><a href="how-to.html" class="links-a">How To Guides</a></p>
+                        <p class="links-p"><a href="how-to.html" class="links-a">* How To Guides</a></p>
                     </div>
 
                     <div id="footer-links">
-                        <p class="links-p"><a href="company-profile.html" class="links-a">Company Profile</a></p>
+                        <p class="links-p"><a href="company-profile.html" class="links-a">* Company Profile</a></p>
                     </div>
 
                     <div id="footer-links">
-                        <p class="links-p"><a href="mobile-app.html" class="links-a">Nongerai Mobile App</a></p>
+                        <p class="links-p"><a href="mobile-app.html" class="links-a">* Nongerai Mobile App</a></p>
                     </div>
 
                     <div id="footer-links">
-                        <p class="links-p"><a target = blank href="https://zw.linkedin.com/in/philani-gumbo-3787a810a" class="links-a">Developer</a></p>
+                        <p class="links-p"><a target = blank href="https://zw.linkedin.com/in/philani-gumbo-3787a810a" class="links-a">* Developer</a></p>
                     </div>
                   </div>
                 </div>
@@ -231,8 +266,8 @@
                             16911 Old SPCA Complex<br/>
                             Graniteside, Harare</p><br/>
                         <p class="address">Sales Tel: 04 589 378<br />
-                            Sales Tel: +263 8677174058-60<br/>
-                            Sales Mobile: +263 713608541</p>
+                            Sales Tel: +263 8677 174 058-60<br/>
+                            Sales Mobile: +263 713 608 541</p>
                     </div>
                   </div>
                 </div>
@@ -245,6 +280,17 @@
         <script type="text/javascript">
           function openSlideMenu(){
             document.getElementById('side-menu').style.width = '100%';
+          }
+          function openDropdown(){
+            document.getElementById('dropNav').style.height = '100%';
+            document.getElementById('dropNav').style.display = 'block';
+            document.getElementById('btn1').style.display = 'none';
+            document.getElementById('btn2').style.display = 'block';
+          }
+          function openDrop(){
+            document.getElementById('dropNav').style.height = '0';
+            document.getElementById('btn1').style.display = 'block';
+            document.getElementById('btn2').style.display = 'none';
           }
           function closeSlideMenu(){
             document.getElementById('side-menu').style.width = '0';

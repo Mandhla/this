@@ -488,6 +488,6 @@ a.dropdown-content{
 .nav-tab{
   text-align: center;
   background-color: white;
-  height: 0;
+  display: none;
   transition: 1.5s;
 }

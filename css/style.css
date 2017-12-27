@@ -478,16 +478,16 @@ a.dropdown-content{
 }
 
 .nav-tab a{
-    text-transform: uppercase;
-    color: green;
-    font-family: 'Square';
-    font-weight: 800;
-    transition: 0.5s;
+  text-transform: uppercase;
+  color: green;
+  font-family: 'Square';
+  font-weight: 800;
+  transition: 0.5s;
 }
 
 .nav-tab{
   text-align: center;
   background-color: white;
   display: none;
-  transition: 1.5s;
+  transition: all 1s ease-out;
 }

@@ -452,6 +452,7 @@ a.dropdown-content{
 
 .about-h1 h1{
   margin-top: 0;
+  font-weight: 650;
 }
 
 .menu-side{
@@ -468,6 +469,10 @@ a.dropdown-content{
 .boxes{
   width: 80%;
   margin-left: 10%;
+}
+
+.boxes h4{
+  font-weight: 700;
 }
 
 .about-h1{

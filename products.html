@@ -10,8 +10,17 @@
     </head>
     <body>
             <div class="body">
-              <span class="open-slide">
-                <a href="#" onclick="openSlideMenu()">
+              <span id="btn1" class="open-dropdown">
+                <a href="#" onclick="openDropdown()">
+                  <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                  </svg>
+                </a>
+              </span>
+              <span id="btn2" class="open-pick">
+                <a href="#" onclick="openDrop()">
                   <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
                     <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
@@ -20,26 +29,23 @@
                 </a>
               </span>
               <header class="menu">
-                <div id="side-menu" class="side-nav">
-                  <a href="#" class="btn-close" style="color:white;" onclick="closeSlideMenu()">&times;</a>
-                  <div class="menu-side">
-                  <button class="btn-nav"><a href="index.html">Home</a></button>
-                  <button class="btn-nav"><a class="dropbtn" href="http://shop.nongerai.co.zw">Online Store</a></button>
-                      <button class="btn-nav"><a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=33">Building Materials</a></button>
-                      <button class="btn-nav"><a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=24">Power Tools</a></button>
-                      <button class="btn-nav"><a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=20">Electricals</a></button>
-                      <button class="btn-nav"><a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=33_60">Plumbing</a></button>
-                      <button class="btn-nav"><a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=17">Garden Tools</a></button>
-                      <button class="btn-nav"><a href="http://www.nongerai.co.zw/demo.html">Shopping Demo</a></button>
-                  <button class="btn-nav"><a href="how-to.html">How To Guides</a></button>
-                  <button class="btn-nav"><a href="products.html">Our Products</a></button>
-                  <button class="btn-nav" style="margin-bottom:20%;"><a href="about.html">About Us</a></button>
-                </div>
-                </div>
                 <div class="logo">
                   <img src="img/logo1.png" class="clogo" alt="image">
                 </div>
               </header>
+              <div id="dropNav" class="nav-tab">
+                <a href="index.html">Home</a> <br>
+                <a class="dropbtn" href="http://shop.nongerai.co.zw">Online Store</a> <br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=60">Building Materials</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=24">Power Tools</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=20">Electricals</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=33_60">Plumbing</a><br>
+                <a href="http://shop.nongerai.co.zw/index.php?route=product/category&amp;path=17">Garden Tools</a><br>
+                <a href="http://www.nongerai.co.zw/demo.html">Shopping Demo</a><br>
+                <a href="how-to.html">How To Guides</a><br>
+                <a href="products.html">Our Products</a><br>
+                <a href="about.html">About Us</a><br>
+              </div>
               <div class="pageImg">
                 <img src="img/products.png" alt="image" width="100%">
               </div>
@@ -105,11 +111,15 @@
                   </div>
         </div>
         <script type="text/javascript">
-          function openSlideMenu(){
-            document.getElementById('side-menu').style.width = '100%';
+          function openDropdown(){
+            document.getElementById('dropNav').style.display = 'block';
+            document.getElementById('btn1').style.display = 'none';
+            document.getElementById('btn2').style.display = 'block';
           }
-          function closeSlideMenu(){
-            document.getElementById('side-menu').style.width = '0';
+          function openDrop(){
+            document.getElementById('dropNav').style.display = 'none';
+            document.getElementById('btn1').style.display = 'block';
+            document.getElementById('btn2').style.display = 'none';
           }
         </script>
       </body>

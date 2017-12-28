@@ -428,11 +428,6 @@ a.dropdown-content{
 }
 
 /* Articles Page */
-
-.articles{
-  background-color: #e9e9e9;
-}
-
 .art-img{
   width: 80%;
   margin-left: 10%;
@@ -546,7 +541,6 @@ a.dropdown-content{
   color: green;
   font-family: 'Square';
   font-weight: 800;
-  transition: 0.5s;
 }
 
 .how-to{
@@ -555,4 +549,8 @@ a.dropdown-content{
 
 .drop{
   display: none;
+}
+
+div.content p{
+  text-align: none;
 }

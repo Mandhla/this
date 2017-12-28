@@ -368,6 +368,12 @@ div.content{
 div.articles{
   display: inline-block;
 }
+div.navBar{
+  display: block;
+}
+span{
+  display: none;
+}
 }
 
 p{
@@ -527,6 +533,26 @@ a.dropdown-content{
   transition: all 1s ease-out;
 }
 
+.navBar{
+  display: none;
+ text-align: center;
+ background-color: gold;
+ transition: all 1s ease-out;
+}
+
+.navBar a{
+  margin: 3%;
+  text-transform: uppercase;
+  color: green;
+  font-family: 'Square';
+  font-weight: 800;
+  transition: 0.5s;
+}
+
 .how-to{
   background-color: white;
+}
+
+.drop{
+  display: none;
 }

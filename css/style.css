@@ -453,9 +453,13 @@ a.dropdown-content{
 
 .about-h1 h1{
   margin-top: 0;
+  margin-left: 5%;
   font-weight: 650;
 }
 
+.about-h1 marquee{
+  margin-left: 5%;
+}
 .menu-side{
   display: inline-grid;
   width: 80%;
@@ -477,10 +481,17 @@ a.dropdown-content{
 }
 
 .about-h1{
-  width: 90%;
-  margin-left: 5%;
-  background-image: url("../img/about.png");
+  background-image: url("../img/automotive.png");
   background-position: center;
+}
+
+.about-h1 p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about p{
+  text-align: justify;
 }
 
 .nav-tab a{

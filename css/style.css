@@ -244,10 +244,6 @@ a{
   text-decoration: none;
 }
 
-#footer-info-box2{
-
-}
-
 div.side-nav{
   height: 100%;
   width: 0;
@@ -290,7 +286,6 @@ div.side-nav{
   width: 100%;
 }
 
-
 .dropdown-content {
     display: block;
 }
@@ -300,9 +295,25 @@ li.dropdown{
 }
 
 @media (min-width:760px){
+  img#times1{
+    float: right;
+    display: block;
+  }
+  img#logo1{
+    padding-top: 4.2%;
+    float: left;
+  }
   #footer{
     float: left;
     width:250px;
+  }
+  header.menu{
+    padding: 0% 0% 1% 5%;
+    display: inline-block;
+  }
+  img.clogo{
+    width: 42%;
+    padding-left:0;
   }
   .foot{
     display:table;
@@ -318,7 +329,7 @@ li.dropdown{
     margin-top: 0;
   }
   #product-image{
-    height: 115px;
+    height: 150px;
   }
   #top-selling-offers-box{
     padding-top: 20px;
@@ -370,6 +381,7 @@ div.articles{
 }
 div.navBar{
   display: block;
+  margin-top: -5px;
 }
 span{
   display: none;
@@ -553,4 +565,7 @@ a.dropdown-content{
 
 div.content p{
   text-align: none;
+}
+#times1{
+  display: none;
 }

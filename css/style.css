@@ -556,6 +556,11 @@ a.dropdown-content{
   font-weight: 800;
 }
 
+.navBar a:hover{
+  background-color: white;
+  border: 3px solid white;
+}
+
 .how-to{
   background-color: white;
 }

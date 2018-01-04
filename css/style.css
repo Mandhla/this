@@ -442,9 +442,11 @@ a.dropdown-content{
 
 /* Articles Page */
 .art-img{
+  border: 3px solid #e3e3e3;
+  border-radius: 20px;
   width: 80%;
   margin-left: 10%;
-  padding: 1pc 1pc 0pc 1pc;
+  padding: 1pc 1pc 1pc 1pc;
 }
 
 .text h3{
@@ -528,7 +530,7 @@ a.dropdown-content{
 
 .nav-tab a{
   text-transform: uppercase;
-  color: green;
+  color:#0000008f;
   font-family: 'Square';
   font-weight: 800;
   transition: 0.5s;
@@ -574,4 +576,15 @@ div.content p{
 }
 #times1{
   display: none;
+}
+
+li{
+  color: white;
+}
+
+.nav1{
+  background-color: #d5e6bc;
+}
+.nav2{
+  background-color: wheat;
 }

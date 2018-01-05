@@ -295,6 +295,15 @@ li.dropdown{
 }
 
 @media (min-width:760px){
+  #btn1{
+    display: none!important
+  }
+  #btn2{
+    display: none!important
+  }
+  .nav-tab{
+    display: none!important
+  }
   img#times1{
     float: right;
     display: block;
@@ -583,7 +592,7 @@ li{
 }
 
 .nav1{
-  background-color: #d5e6bc;
+  background-color: #4a9a4d;
 }
 .nav2{
   background-color: wheat;
